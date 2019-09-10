@@ -10,10 +10,7 @@ namespace Self_powers
     {
         static void Main(string[] args)
         {
-            while (true)
-            {
-                Console.WriteLine(SummarizeSelfPowers(int.Parse(Console.ReadLine())));
-            }
+            Console.WriteLine(SummarizeSelfPowers(1000));//9110846700
         }
 
         static long SummarizeSelfPowers(int n)
