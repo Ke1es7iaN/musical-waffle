@@ -10,7 +10,7 @@ namespace Lattice_paths
     {
         static void Main()
         {
-            Console.WriteLine(GetNumberOfWays(20));//407575348
+            Console.WriteLine(GetNumberOfWays(20));//137846528820
         }
 
         static int GetNumberOfWays(int n)
