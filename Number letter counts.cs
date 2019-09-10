@@ -22,7 +22,7 @@ namespace Number_letter_counts
             {
                 lettersCounter += SpellTheNumber(i).Length;
             }
-            Console.WriteLine(lettersCounter);
+            Console.WriteLine(lettersCounter);//21224
         }
 
         static string SpellTheNumber(int number)
